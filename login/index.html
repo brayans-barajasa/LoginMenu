@@ -16,7 +16,7 @@
             <div class="cardInfo">
                 <h1>Welcome</h1>
                 <h2>Cultura Raíces:</h2>
-                <h4>Un proyecto apasionado por preservar, enriquecer y difundir el tesoro cultural local. Conectamos con nuestras raíces, celebramos la diversidad y compartimos tradiciones. Juntos, tejemos un legado cultural para las generaciones venideras, fortaleciendo el alma de nuestra comunidad.
+                <h4>Nos apasiona preservar, enriquecer y difundir el tesoro cultural local, conectando con nuestras raíces, celebrando la diversidad y compartiendo tradiciones. Juntos, tejemos un legado cultural para las generaciones venideras, fortaleciendo el alma de nuestra comunidad. Explora nuestras historias, festivales, talleres y museo virtual, y únete a esta comunidad comprometida con su identidad única. ¡Gracias por ser parte de nuestro esfuerzo para mantener viva nuestra herencia cultural!
                 </h4>
             </div>
 
@@ -31,7 +31,17 @@
                     <input class="inputs" type="text" placeholder="password">
                 </div>
                 <div>
-                    <button class="btn">LOGIN</button>
+                    <button id="btn" class="btn">LOGIN</button>
+                    <script>
+                        // Obtener una referencia al botón por su ID
+                        var boton = document.getElementById('btn');
+                    
+                        // Agregar un evento click al botón
+                        boton.addEventListener('click', function() {
+                          // Redireccionar a la página deseada
+                          window.location.href = '/Menu/index.html';
+                        });
+                    </script>
                 </div>
             </div>
         </div>
