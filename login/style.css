@@ -1,126 +1,135 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
 /*font-family: 'Crimson Text', serif;*/
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Roboto&display=swap");
 /*font-family: 'Crimson Text', serif;*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 /*font-family: 'Pacifico', cursive;*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.main{
-    background-color: rgb(233, 237, 249);
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.main {
+  background-color: rgb(233, 237, 249);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.cardMain{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 90vw;
-    height: 90vh;
-    border: 2px solid #cec7c7;
-    border-radius: 10px;
-    box-shadow:  8px 6px 10px rgba(46, 44, 44, 0.9);
+.cardMain {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 90vh;
+  border: 2px solid #cec7c7;
+  border-radius: 10px;
+  box-shadow: 8px 6px 10px rgba(46, 44, 44, 0.9);
 }
 
-.cardInfo{
-    width: 90vw;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(16, 175, 245);
-    background-image: url(/login/img/fondoInfo.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 10px 0 0 10px;
+.cardInfo {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(16, 175, 245);
+  background-image: url(/login/img/books.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px 0 0 10px;
 }
 
-.cardInfo h1{
-    color: white;
-    padding-bottom: 20px;
-    font-size: 70px;
-    font-family: 'Crimson Text', serif;
+.cardInfo h1 {
+  color: white;
+  padding-bottom: 20px;
+  font-size: 70px;
+  font-family: "Crimson Text", serif;
 }
-.cardInfo h2{
-    color: #000000;
-    background-color: rgba(240, 248, 255,0.5);
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Pacifico', cursive;
+.cardInfo h2 {
+  color: #000000;
+  background-color: rgba(240, 248, 255, 0.5);
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
 }
-.cardInfo h4{
-    margin: 20px;
-    color: #000000;
-    background-color: rgba(255, 255, 255, 0.5);
-    text-align: justify;
-    font-family: 'Crimson Text', serif;
-    font-size: 20px;
-}
-
-.cardLogin{
-    width: 90vw;
-    height: 90vh;
-    background-color: rgba(255, 255, 250,0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 0 10px 10px 0;
-
-}
-.cardLogin h2{
-    color: rgb(0, 0, 0);
-    padding-bottom: 20px;
-    font-size: 50px;
-    font-family: 'Crimson Text', serif;
+.cardInfo h4 {
+  margin: 20px;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
 }
 
-.input_user{
-    display: flex;
-    justify-content: center;
+.cardLogin {
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(255, 255, 250, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0 10px 10px 0;
+}
+.cardLoginAccount {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}
+.cardLoginAccount h2 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Crimson Text", serif;
+}
+.cardLoginAccount h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 50px 0 50px;
+  text-align: justify;
 }
 
-.input_password{
-    display: flex;
-    justify-content: center;
+.input_user {
+  display: flex;
+  justify-content: center;
 }
 
-.icons{
-    width: 60px;
-    height: 60px;
-    padding: 7px;
-    background-color: #c4c4c4;
-    border-radius: 10px;
+.input_password {
+  display: flex;
+  justify-content: center;
 }
-.inputs{
-    height: 50px;
-    width: 200px;
-    background-color: #c4c4c4;
-    margin-left: 15px;
-    border: none;
-    border-radius: 100px;
-    padding-inline: 15px;
 
+.icons {
+  width: 60px;
+  height: 60px;
+  padding: 7px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
 }
-.btn{
-    background-color: rgb(38, 160, 216);
-    font-size: 20px;
-    width: 200px;
-    height: 40px;
-    border-radius: 20px;
-    cursor: pointer;
+.inputs {
+  height: 50px;
+  width: 200px;
+  background-color: #c4c4c4;
+  margin-left: 15px;
+  border: none;
+  border-radius: 100px;
+  padding-inline: 15px;
 }
-.btn:hover{
-    background-color: rgb(180, 179, 179);
+.btn {
+  background-color: rgb(38, 160, 216);
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(180, 179, 179);
 }
